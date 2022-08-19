@@ -17,7 +17,7 @@ $ rclone --config local.conf mkdir local:data
 ### Test 
 
 ```sh
-cat 1.json
+$ cat 1.json
 {"id":1,"name":"Alice"}
 {"id":2,"name":"Bob"}
 {"id":3,"name":"Carol"}
