@@ -3,10 +3,6 @@ services:
   trino:
     image: trinodb/trino
     container_name: trino
-    environment:
-      AWS_ACCESS_KEY: minio
-      AWS_SECRET_KEY: minio1234
-      S3_ENDPOINT: http://minio:9000
     restart: always
     ports:
       - "8080:8080"
